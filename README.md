@@ -1,6 +1,5 @@
 # Tailwindcss-Dashboard-UI
 
-![](./cssjs-8.jpg)
 
 
 
