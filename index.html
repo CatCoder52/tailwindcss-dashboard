@@ -12,43 +12,141 @@
       rel="stylesheet"
       href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
     />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.2/tailwind.min.css" integrity="sha512-mZ+ZnjWE+WxIG8b8Ilysrfq7stpTrGu53lofHJbhuIe6iYmURmoXlZ4ycMN7qQoMhR3qWzVXF/q4N4UKfwmZeQ==" crossorigin="anonymous" />
-    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css"
+      integrity="sha512-vJu7D5BpjnNXVpLBrl9LKLvmXBNjiLwge8EOZ/YS9XwiChpfKLAlydwIZvoJaDE3LI/kr3goH0MzDzNbBgyoOQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
 
     <title>Dashboard</title>
   </head>
   <body class="text-gray-800 antialiased">
     <div id="root">
       <nav
-        class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"
+        class="
+          md:left-0
+          md:block
+          md:fixed
+          md:top-0
+          md:bottom-0
+          md:overflow-y-auto
+          md:flex-row
+          md:flex-no-wrap
+          md:overflow-hidden
+          shadow-xl
+          bg-white
+          flex flex-wrap
+          items-center
+          justify-between
+          relative
+          md:w-64
+          z-10
+          py-4
+          px-6
+        "
       >
         <div
-          class="md:flex-col md:items-stretch md:min-h-full md:flex-no-wrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
+          class="
+            md:flex-col md:items-stretch md:min-h-full md:flex-no-wrap
+            px-0
+            flex flex-wrap
+            items-center
+            justify-between
+            w-full
+            mx-auto
+          "
         >
           <button
-            class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
+            class="
+              cursor-pointer
+              text-black
+              opacity-50
+              md:hidden
+              px-3
+              py-1
+              text-xl
+              leading-none
+              bg-transparent
+              rounded
+              border border-solid border-transparent
+            "
             type="button"
             onclick="toggleNavbar('example-collapse-sidebar')"
           >
-            <i class="fas fa-bars"></i></button
-          >
+            <i class="fas fa-bars"></i>
+          </button>
           <a
-            class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+            class="
+              md:block
+              text-left
+              md:pb-2
+              text-gray-700
+              mr-0
+              inline-block
+              whitespace-no-wrap
+              text-sm
+              uppercase
+              font-bold
+              p-4
+              px-0
+            "
             href="javascript:void(0)"
           >
             Dashboard UI Idea
           </a>
           <div
-            class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden"
+            class="
+              md:flex
+              md:flex-col
+              md:items-stretch
+              md:opacity-100
+              md:relative
+              md:mt-4
+              md:shadow-none
+              shadow
+              absolute
+              top-0
+              left-0
+              right-0
+              z-40
+              overflow-y-auto overflow-x-hidden
+              h-auto
+              items-center
+              flex-1
+              rounded
+              hidden
+            "
             id="example-collapse-sidebar"
           >
             <div
-              class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-gray-300"
+              class="
+                md:min-w-full md:hidden
+                block
+                pb-4
+                mb-4
+                border-b border-solid border-gray-300
+              "
             >
               <div class="flex flex-wrap">
                 <div class="w-6/12">
                   <a
-                    class="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+                    class="
+                      md:block
+                      text-left
+                      md:pb-2
+                      text-gray-700
+                      mr-0
+                      inline-block
+                      whitespace-no-wrap
+                      text-sm
+                      uppercase
+                      font-bold
+                      p-4
+                      px-0
+                    "
                     href="javascript:void(0)"
                   >
                     Tailwind
@@ -57,7 +155,19 @@
                 <div class="w-6/12 flex justify-end">
                   <button
                     type="button"
-                    class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
+                    class="
+                      cursor-pointer
+                      text-black
+                      opacity-50
+                      md:hidden
+                      px-3
+                      py-1
+                      text-xl
+                      leading-none
+                      bg-transparent
+                      rounded
+                      border border-solid border-transparent
+                    "
                     onclick="toggleNavbar('example-collapse-sidebar')"
                   >
                     <i class="fas fa-times"></i>
@@ -68,7 +178,15 @@
             <ul class="md:flex-col md:min-w-full flex flex-col list-none">
               <li class="items-center">
                 <a
-                  class="text-pink-500 hover:text-pink-600 text-xs uppercase py-3 font-bold block"
+                  class="
+                    text-pink-500
+                    hover:text-pink-600
+                    text-xs
+                    uppercase
+                    py-3
+                    font-bold
+                    block
+                  "
                   href="#"
                   ><i class="fas fa-tv opacity-75 mr-2 text-sm"></i>
                   Dashboard</a
@@ -76,162 +194,114 @@
               </li>
               <li class="items-center">
                 <a
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  class="
+                    text-gray-800
+                    hover:text-gray-600
+                    text-xs
+                    uppercase
+                    py-3
+                    font-bold
+                    block
+                  "
                   href="#"
                   ><i class="fas fa-newspaper text-gray-500 mr-2 text-sm"></i>
-                 Orders</a
+                  Orders</a
                 >
               </li>
               <li class="items-center">
                 <a
-                  class="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  class="
+                    text-gray-800
+                    hover:text-gray-600
+                    text-xs
+                    uppercase
+                    py-3
+                    font-bold
+                    block
+                  "
                   href="#"
                   ><i class="fas fa-user-circle text-gray-500 mr-2 text-sm"></i>
                   Users</a
                 >
               </li>
             </ul>
-
           </div>
         </div>
       </nav>
       <div class="relative md:ml-64 bg-gray-100">
         <nav
-          class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-no-wrap md:justify-start flex items-center p-4"
+          class="
+            absolute
+            top-0
+            left-0
+            w-full
+            z-10
+            bg-transparent
+            md:flex-row md:flex-no-wrap md:justify-start
+            flex
+            items-center
+            p-4
+          "
         >
           <div
-            class="w-full mx-autp items-center flex justify-between md:flex-no-wrap flex-wrap md:px-10 px-4"
+            class="
+              w-full
+              mx-autp
+              items-center
+              flex
+              justify-between
+              md:flex-no-wrap
+              flex-wrap
+              md:px-10
+              px-4
+            "
           >
             <a
-              class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
+              class="
+                text-white text-sm
+                uppercase
+                hidden
+                lg:inline-block
+                font-semibold
+              "
               href="./index.html"
               >Dashboard</a
             >
-
           </div>
         </nav>
         <!-- Header -->
-        <div class="relative bg-blue-600 md:pt-32 pb-32 pt-12 pattern-dots-sm">
+        <div class="relative md:pb-32 pt-12">
           <div class="px-4 md:px-10 mx-auto w-full">
             <div>
               <!-- Card stats -->
-              <div class="flex flex-wrap">
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-                  <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                    <div class="flex-auto Ac-sm p-4">
-                      <div class="flex flex-wrap">
-                        <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-                          <h5 class="text-gray-500 uppercase font-bold text-xs">
-                            Traffic
-                          </h5>
-                          <span class="font-semibold text-xl text-gray-800">
-                            450,321
-                          </span>
-                        </div>
-                        <div class="relative w-auto pl-4 flex-initial">
-                          <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-500">
-                            <i class="far fa-chart-bar"></i>
-                          </div>
-                        </div>
-                      </div>
-                        <p class="text-sm text-gray-500 mt-4">
-                        <span class="text-green-500 mr-2">
-                          <i class="fas fa-arrow-up"></i> 4.55%
-                        </span>
-                        <span class="whitespace-no-wrap">
-                          Since last month
-                        </span>
-                      </p>
-                    </div>
+              <div class="flex flex-wrap gap-2 justify-center items-center">
+
+                <div class="w-full lg:w-6/12 xl:w-3/12 px-4 py-4 bg-white shadow-lg rounded pattern-horizontal-lines-md
+bg-indigo-600">
+                  <div>
+                    <img
+                      src="./assets/bitcoin-share.png"
+                    />
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-                  <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                    <div class="flex-auto -sm p-4">
-                      <div class="flex flex-wrap">
-                        <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-                          <h5 class="text-gray-500 uppercase font-bold text-xs">
-                            New users
-                          </h5>
-                          <span class="font-semibold text-xl text-gray-800">
-                            33,756
-                          </span>
-                        </div>
-                        <div class="relative w-auto pl-4 flex-initial">
-                          <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500">
-                            <i class="fas fa-chart-pie"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p class="text-sm text-gray-500 mt-4">
-                        <span class="text-red-500 mr-2">
-                          <i class="fas fa-arrow-down"></i> 2.48%
-                        </span>
-                        <span class="whitespace-no-wrap">
-                          Since last week
-                        </span>
-                      </p>
-                    </div>
+                <div class="w-full lg:w-6/12 xl:w-3/12 px-4 py-4 bg-white shadow-lg rounded pattern-horizontal-lines-md
+bg-red-600">
+                  <div>
+                    <img
+                      src="./assets/etherum-share.png"
+                    />
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-                  <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                    <div class="flex-auto -sm p-4">
-                      <div class="flex flex-wrap">
-                        <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-                          <h5 class="text-gray-500 uppercase font-bold text-xs">
-                            Sales
-                          </h5>
-                          <span class="font-semibold text-xl text-gray-800">
-                            924
-                          </span>
-                        </div>
-                        <div class="relative w-auto pl-4 flex-initial">
-                          <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-pink-500">
-                            <i class="fas fa-users"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p class="text-sm text-gray-500 mt-4">
-                        <span class="text-orange-500 mr-2">
-                          <i class="fas fa-arrow-down"></i> 1.10%
-                        </span>
-                        <span class="whitespace-no-wrap">
-                          Since yesterday
-                        </span>
-                      </p>
-                    </div>
+                <div class="w-full lg:w-6/12 xl:w-3/12 px-4 py-4 bg-white shadow-lg rounded pattern-horizontal-lines-md
+bg-blue-600">
+                  <div>
+                    <img
+                      src="./assets/bitcoin-share.png"
+                    />
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
-                  <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                    <div class="flex-auto -sm p-4">
-                      <div class="flex flex-wrap">
-                        <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-                          <h5 class="text-gray-500 uppercase font-bold text-xs">
-                            Performance
-                          </h5>
-                          <span class="font-semibold text-xl text-gray-800">
-                            69,55%
-                          </span>
-                        </div>
-                        <div class="relative w-auto pl-4 flex-initial">
-                          <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-blue-500">
-                            <i class="fas fa-percent"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p class="text-sm text-gray-500 mt-4">
-                        <span class="text-green-500 mr-2">
-                          <i class="fas fa-arrow-up"></i> 14%
-                        </span>
-                        <span class="whitespace-no-wrap">
-                          Since last month
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+
+
               </div>
             </div>
           </div>
@@ -240,25 +310,41 @@
           <div class="flex flex-wrap">
             <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blue-900"
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  w-full
+                  mb-6
+                  shadow-lg
+                  rounded
+                  bg-blue-900
+                "
               >
                 <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
                   <div class="flex flex-wrap items-center">
                     <div class="relative w-full max-w-full flex-grow flex-1">
                       <h6
-                        class="uppercase text-gray-200 mb-1 text-xs font-semibold"
+                        class="
+                          uppercase
+                          text-gray-200
+                          mb-1
+                          text-xs
+                          font-semibold
+                        "
                       >
                         Monthly
                       </h6>
                       <h2 class="text-white text-xl font-semibold">
-                        Orders Review
+                        Monthly Views
                       </h2>
                     </div>
                   </div>
                 </div>
                 <div class="p-4 flex-auto">
                   <!-- Chart -->
-                  <div class="relative" style="height:350px">
+                  <div class="relative" style="height: 350px">
                     <canvas id="line-chart"></canvas>
                   </div>
                 </div>
@@ -266,297 +352,676 @@
             </div>
             <div class="w-full xl:w-4/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  bg-white
+                  w-full
+                  mb-6
+                  shadow-lg
+                  rounded
+                "
               >
                 <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
                   <div class="flex flex-wrap items-center">
                     <div class="relative w-full max-w-full flex-grow flex-1">
                       <h6
-                        class="uppercase text-gray-500 mb-1 text-xs font-semibold"
+                        class="
+                          uppercase
+                          text-gray-500
+                          mb-1
+                          text-xs
+                          font-semibold
+                        "
                       >
                         Conversion
                       </h6>
                       <h2 class="text-gray-800 text-xl font-semibold">
-                        All Users
+                        Activities
                       </h2>
                     </div>
                   </div>
                 </div>
                 <div class="p-4 flex-auto">
                   <!-- Chart -->
-                  <div class="relative" style="height:350px">
+                  <div class="relative" style="height: 350px">
                     <canvas id="bar-chart"></canvas>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        <!-- Components Start-->
-        <!-- component -->
-<div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-hidden">
-                <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
-                    <table class="min-w-full leading-normal">
-                        <thead>
-                            <tr>
-                                <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                    Users
-                                </th>
-                                <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                    Roles
-                                </th>
-                                <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                    Created at
-                                </th>
-                                <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                    Status
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 w-10 h-10">
-                                            <img class="w-full h-full rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80" alt="">
-                                        </div>
-                                        <div class="ml-3">
-                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                Vera Carpenter
-                                            </p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">Admin</p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">
-                                        Jan 21, 2020
-                                    </p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                                        <span aria-hidden="" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                                        <span class="relative">Active</span>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 w-10 h-10">
-                                            <img class="w-full h-full rounded-full" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80" alt="">
-                                        </div>
-                                        <div class="ml-3">
-                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                Blake Bowman
-                                            </p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">Editor</p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">
-                                        Jan 01, 2020
-                                    </p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                                        <span aria-hidden="" class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                                        <span class="relative">Active</span>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 w-10 h-10">
-                                            <img class="w-full h-full rounded-full" src="https://images.unsplash.com/photo-1540845511934-7721dd7adec3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80" alt="">
-                                        </div>
-                                        <div class="ml-3">
-                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                Dana Moore
-                                            </p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">Editor</p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">
-                                        Jan 10, 2020
-                                    </p>
-                                </td>
-                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
-                                        <span aria-hidden="" class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
-                                        <span class="relative">Suspended</span>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="px-5 py-5 bg-white text-sm">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 w-10 h-10">
-                                            <img class="w-full h-full rounded-full" src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;h=160&amp;w=160&amp;q=80" alt="">
-                                        </div>
-                                        <div class="ml-3">
-                                            <p class="text-gray-900 whitespace-no-wrap">
-                                                Alonzo Cox
-                                            </p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="px-5 py-5 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">Admin</p>
-                                </td>
-                                <td class="px-5 py-5 bg-white text-sm">
-                                    <p class="text-gray-900 whitespace-no-wrap">Jan 18, 2020</p>
-                                </td>
-                                <td class="px-5 py-5 bg-white text-sm">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
-                                        <span aria-hidden="" class="absolute inset-0 bg-red-200 opacity-50 rounded-full"></span>
-                                        <span class="relative">Inactive</span>
-                                    </span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="px-5 py-5 bg-white border-t flex flex-col xs:flex-row items-center xs:justify-between          ">
-                        <span class="text-xs xs:text-sm text-gray-900">
-                            Showing 1 to 4 of 50 Entries
-                        </span>
-                        <div class="inline-flex mt-2 xs:mt-0">
-                            <button class="text-sm bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
-                                Prev
-                            </button>
-                            <button class="text-sm bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
-                                Next
-                            </button>
+          <!-- Components Start-->
+          <!-- component -->
+          <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-hidden">
+            <div
+              class="inline-block min-w-full shadow rounded-lg overflow-hidden"
+            >
+              <table class="min-w-full leading-normal">
+                <thead>
+                  <tr>
+                    <th
+                      class="
+                        px-5
+                        py-3
+                        border-b-2 border-gray-200
+                        bg-gray-100
+                        text-left text-xs
+                        font-semibold
+                        text-gray-600
+                        uppercase
+                        tracking-wider
+                      "
+                    >
+                      Users
+                    </th>
+                    <th
+                      class="
+                        px-5
+                        py-3
+                        border-b-2 border-gray-200
+                        bg-gray-100
+                        text-left text-xs
+                        font-semibold
+                        text-gray-600
+                        uppercase
+                        tracking-wider
+                      "
+                    >
+                      Roles
+                    </th>
+                    <th
+                      class="
+                        px-5
+                        py-3
+                        border-b-2 border-gray-200
+                        bg-gray-100
+                        text-left text-xs
+                        font-semibold
+                        text-gray-600
+                        uppercase
+                        tracking-wider
+                      "
+                    >
+                      Created at
+                    </th>
+                    <th
+                      class="
+                        px-5
+                        py-3
+                        border-b-2 border-gray-200
+                        bg-gray-100
+                        text-left text-xs
+                        font-semibold
+                        text-gray-600
+                        uppercase
+                        tracking-wider
+                      "
+                    >
+                      Status
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80"
+                            alt=""
+                          />
                         </div>
-                    </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Vera Carpenter
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">Admin</p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 21, 2020
+                      </p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <span
+                        class="
+                          relative
+                          inline-block
+                          px-3
+                          py-1
+                          font-semibold
+                          text-green-900
+                          leading-tight
+                        "
+                      >
+                        <span
+                          aria-hidden=""
+                          class="
+                            absolute
+                            inset-0
+                            bg-green-200
+                            opacity-50
+                            rounded-full
+                          "
+                        ></span>
+                        <span class="relative">Active</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Blake Bowman
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">Editor</p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 01, 2020
+                      </p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <span
+                        class="
+                          relative
+                          inline-block
+                          px-3
+                          py-1
+                          font-semibold
+                          text-green-900
+                          leading-tight
+                        "
+                      >
+                        <span
+                          aria-hidden=""
+                          class="
+                            absolute
+                            inset-0
+                            bg-green-200
+                            opacity-50
+                            rounded-full
+                          "
+                        ></span>
+                        <span class="relative">Active</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1540845511934-7721dd7adec3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;w=160&amp;h=160&amp;q=80"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Dana Moore
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">Editor</p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 10, 2020
+                      </p>
+                    </td>
+                    <td
+                      class="
+                        px-5
+                        py-5
+                        border-b border-gray-200
+                        bg-white
+                        text-sm
+                      "
+                    >
+                      <span
+                        class="
+                          relative
+                          inline-block
+                          px-3
+                          py-1
+                          font-semibold
+                          text-orange-900
+                          leading-tight
+                        "
+                      >
+                        <span
+                          aria-hidden=""
+                          class="
+                            absolute
+                            inset-0
+                            bg-orange-200
+                            opacity-50
+                            rounded-full
+                          "
+                        ></span>
+                        <span class="relative">Suspended</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-5 py-5 bg-white text-sm">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2.2&amp;h=160&amp;w=160&amp;q=80"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Alonzo Cox
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-5 py-5 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">Admin</p>
+                    </td>
+                    <td class="px-5 py-5 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 18, 2020
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 bg-white text-sm">
+                      <span
+                        class="
+                          relative
+                          inline-block
+                          px-3
+                          py-1
+                          font-semibold
+                          text-red-900
+                          leading-tight
+                        "
+                      >
+                        <span
+                          aria-hidden=""
+                          class="
+                            absolute
+                            inset-0
+                            bg-red-200
+                            opacity-50
+                            rounded-full
+                          "
+                        ></span>
+                        <span class="relative">Inactive</span>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div
+                class="
+                  px-5
+                  py-5
+                  bg-white
+                  border-t
+                  flex flex-col
+                  xs:flex-row
+                  items-center
+                  xs:justify-between
+                "
+              >
+                <span class="text-xs xs:text-sm text-gray-900">
+                  Showing 1 to 4 of 50 Entries
+                </span>
+                <div class="inline-flex mt-2 xs:mt-0">
+                  <button
+                    class="
+                      text-sm
+                      bg-gray-300
+                      hover:bg-gray-400
+                      text-gray-800
+                      font-semibold
+                      py-2
+                      px-4
+                      rounded-l
+                    "
+                  >
+                    Prev
+                  </button>
+                  <button
+                    class="
+                      text-sm
+                      bg-gray-300
+                      hover:bg-gray-400
+                      text-gray-800
+                      font-semibold
+                      py-2
+                      px-4
+                      rounded-r
+                    "
+                  >
+                    Next
+                  </button>
                 </div>
+              </div>
             </div>
-        <!-- Components End-->
-        <!-- Components Start-->
-        <div class="bg-white shadow overflow-hidden  sm:rounded-lg">
-  <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
-    <h3 class="text-lg leading-6 font-medium text-gray-900">
-      Applicant Information
-    </h3>
-    <p class="mt-1 max-w-2xl text-sm leading-5 text-gray-500">
-      Personal details and application.
-    </p>
-  </div>
-  <div class="px-4 py-5 sm:px-6">
-    <dl class="grid grid-cols-1 col-gap-4 row-gap-8 sm:grid-cols-2">
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Full name
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          Syed Simanta
-        </dd>
-      </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Application for
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          Front end developer
-        </dd>
-      </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Email address
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          syed.simanta10@gmail.com
-        </dd>
-      </div>
-      <div class="sm:col-span-1">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Salary expectation
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          $440,000
-        </dd>
-      </div>
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          About
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla error dolore esse! Odio eum perferendis libero aspernatur, optio quasi, recusandae iste sunt corrupti laboriosam harum sed. Reprehenderit in dolorum eum magnam non ea dolore illum officiis quibusdam dolores id, obcaecati quidem eligendi doloribus eaque.
-        </dd>
-      </div>
-      <div class="sm:col-span-2">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-          Attachments
-        </dt>
-        <dd class="mt-1 text-sm leading-5 text-gray-900">
-          <ul class="border border-gray-200 rounded-md">
-            <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5">
-              <div class="w-0 flex-1 flex items-center">
-                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" fill="currentColor" viewbox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"/>
-                </svg>
-                <span class="ml-2 flex-1 w-0 truncate">
-                  resume_ui_ux_designer.pdf
-                </span>
-              </div>
-              <div class="ml-4 flex-shrink-0">
-                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500 transition duration-150 ease-in-out">
-                  Download
-                </a>
-              </div>
-            </li>
-            <li class="border-t border-gray-200 pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5">
-              <div class="w-0 flex-1 flex items-center">
-                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" fill="currentColor" viewbox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"/>
-                </svg>
-                <span class="ml-2 flex-1 w-0 truncate">
-                  font end developer.pdf
-                </span>
-              </div>
-              <div class="ml-4 flex-shrink-0">
-                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500 transition duration-150 ease-in-out">
-                  Download
-                </a>
-              </div>
-            </li>
-          </ul>
-        </dd>
-      </div>
-    </dl>
-  </div>
-</div>
-<!-- Components -->
+          </div>
+          <!-- Components End-->
+          <!-- Components Start-->
+          <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+            <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
+              <h3 class="text-lg leading-6 font-medium text-gray-900">
+                Applicant Information
+              </h3>
+              <p class="mt-1 max-w-2xl text-sm leading-5 text-gray-500">
+                Personal details and application.
+              </p>
+            </div>
+            <div class="px-4 py-5 sm:px-6">
+              <dl class="grid grid-cols-1 col-gap-4 row-gap-8 sm:grid-cols-2">
+                <div class="sm:col-span-1">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    Full name
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">
+                    Syed Simanta
+                  </dd>
+                </div>
+                <div class="sm:col-span-1">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    Application for
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">
+                    Front end developer
+                  </dd>
+                </div>
+                <div class="sm:col-span-1">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    Email address
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">
+                    syed.simanta10@gmail.com
+                  </dd>
+                </div>
+                <div class="sm:col-span-1">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    Salary expectation
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">$440,000</dd>
+                </div>
+                <div class="sm:col-span-2">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    About
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    nulla error dolore esse! Odio eum perferendis libero
+                    aspernatur, optio quasi, recusandae iste sunt corrupti
+                    laboriosam harum sed. Reprehenderit in dolorum eum magnam
+                    non ea dolore illum officiis quibusdam dolores id, obcaecati
+                    quidem eligendi doloribus eaque.
+                  </dd>
+                </div>
+                <div class="sm:col-span-2">
+                  <dt class="text-sm leading-5 font-medium text-gray-500">
+                    Attachments
+                  </dt>
+                  <dd class="mt-1 text-sm leading-5 text-gray-900">
+                    <ul class="border border-gray-200 rounded-md">
+                      <li
+                        class="
+                          pl-3
+                          pr-4
+                          py-3
+                          flex
+                          items-center
+                          justify-between
+                          text-sm
+                          leading-5
+                        "
+                      >
+                        <div class="w-0 flex-1 flex items-center">
+                          <svg
+                            class="flex-shrink-0 h-5 w-5 text-gray-400"
+                            fill="currentColor"
+                            viewbox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                          <span class="ml-2 flex-1 w-0 truncate">
+                            resume_ui_ux_designer.pdf
+                          </span>
+                        </div>
+                        <div class="ml-4 flex-shrink-0">
+                          <a
+                            href="#"
+                            class="
+                              font-medium
+                              text-indigo-600
+                              hover:text-indigo-500
+                              transition
+                              duration-150
+                              ease-in-out
+                            "
+                          >
+                            Download
+                          </a>
+                        </div>
+                      </li>
+                      <li
+                        class="
+                          border-t border-gray-200
+                          pl-3
+                          pr-4
+                          py-3
+                          flex
+                          items-center
+                          justify-between
+                          text-sm
+                          leading-5
+                        "
+                      >
+                        <div class="w-0 flex-1 flex items-center">
+                          <svg
+                            class="flex-shrink-0 h-5 w-5 text-gray-400"
+                            fill="currentColor"
+                            viewbox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                          <span class="ml-2 flex-1 w-0 truncate">
+                            font end developer.pdf
+                          </span>
+                        </div>
+                        <div class="ml-4 flex-shrink-0">
+                          <a
+                            href="#"
+                            class="
+                              font-medium
+                              text-indigo-600
+                              hover:text-indigo-500
+                              transition
+                              duration-150
+                              ease-in-out
+                            "
+                          >
+                            Download
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <!-- Components -->
           <footer class="block py-4">
             <div class="container mx-auto px-4">
               <hr class="mb-4 border-b-1 border-gray-300" />
-              <div class="flex flex-wrap items-center md:justify-between justify-center">
+              <div
+                class="
+                  flex flex-wrap
+                  items-center
+                  md:justify-between
+                  justify-center
+                "
+              >
                 <div class="w-full md:w-4/12 px-4">
                   <div class="text-sm text-gray-600 font-semibold py-1">
-                    Copyright © <span id="javascript-date"></span>
+                    Dashboard<span id="javascript-date"></span>
                     <a
                       href="#"
-                      class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
+                      class="
+                        text-gray-600
+                        hover:text-gray-800
+                        text-sm
+                        font-semibold
+                        py-1
+                      "
                     >
-                      by Simanta
+                      TW Components
                     </a>
                   </div>
                 </div>
                 <div class="w-full md:w-8/12 px-4">
-                  <ul class="flex flex-wrap list-none md:justify-end  justify-center">
+                  <ul
+                    class="
+                      flex flex-wrap
+                      list-none
+                      md:justify-end
+                      justify-center
+                    "
+                  >
                     <li>
                       <a
                         href="#"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                        class="
+                          text-gray-700
+                          hover:text-gray-900
+                          text-sm
+                          font-semibold
+                          block
+                          py-1
+                          px-3
+                        "
                       >
                         Lorem
                       </a>
@@ -564,7 +1029,15 @@
                     <li>
                       <a
                         href="#"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                        class="
+                          text-gray-700
+                          hover:text-gray-900
+                          text-sm
+                          font-semibold
+                          block
+                          py-1
+                          px-3
+                        "
                       >
                         About Us
                       </a>
@@ -572,7 +1045,15 @@
                     <li>
                       <a
                         href="#"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                        class="
+                          text-gray-700
+                          hover:text-gray-900
+                          text-sm
+                          font-semibold
+                          block
+                          py-1
+                          px-3
+                        "
                       >
                         Blog
                       </a>
@@ -580,7 +1061,15 @@
                     <li>
                       <a
                         href="#"
-                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                        class="
+                          text-gray-700
+                          hover:text-gray-900
+                          text-sm
+                          font-semibold
+                          block
+                          py-1
+                          px-3
+                        "
                       >
                         Github
                       </a>
@@ -597,191 +1086,194 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
       charset="utf-8"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" charset="utf-8"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"
+      charset="utf-8"
+    ></script>
     <script type="text/javascript">
       /* Sidebar - Side navigation menu on mobile/responsive mode */
       function toggleNavbar(collapseID) {
-        document.getElementById(collapseID).classList.toggle("hidden");
-        document.getElementById(collapseID).classList.toggle("bg-white");
-        document.getElementById(collapseID).classList.toggle("m-2");
-        document.getElementById(collapseID).classList.toggle("py-3");
-        document.getElementById(collapseID).classList.toggle("px-6");
+        document.getElementById(collapseID).classList.toggle('hidden')
+        document.getElementById(collapseID).classList.toggle('bg-white')
+        document.getElementById(collapseID).classList.toggle('m-2')
+        document.getElementById(collapseID).classList.toggle('py-3')
+        document.getElementById(collapseID).classList.toggle('px-6')
       }
       /* Function for dropdowns */
       function openDropdown(event, dropdownID) {
-        let element = event.target;
-        while (element.nodeName !== "A") {
-          element = element.parentNode;
+        let element = event.target
+        while (element.nodeName !== 'A') {
+          element = element.parentNode
         }
         var popper = new Popper(element, document.getElementById(dropdownID), {
-          placement: "bottom-end"
-        });
-        document.getElementById(dropdownID).classList.toggle("hidden");
-        document.getElementById(dropdownID).classList.toggle("block");
+          placement: 'bottom-end',
+        })
+        document.getElementById(dropdownID).classList.toggle('hidden')
+        document.getElementById(dropdownID).classList.toggle('block')
       }
 
-
-      (function() {
+      ;(function () {
         /* Add current date to the footer */
-        document.getElementById("javascript-date").innerHTML = new Date().getFullYear();
+        document.getElementById('javascript-date').innerHTML =
+          new Date().getFullYear()
         /* Chart initialisations */
         /* Line Chart */
         var config = {
-          type: "bar",
+          type: 'bar',
           data: {
             labels: [
-              "January",
-              "February",
-              "March",
-              "April",
-              "May",
-              "June",
-              "July"
+              'January',
+              'February',
+              'March',
+              'April',
+              'May',
+              'June',
+              'July',
             ],
             datasets: [
               {
                 label: new Date().getFullYear(),
-                backgroundColor: "#21C49C",
-                borderColor: "#21C49D",
+                backgroundColor: '#21C49C',
+                borderColor: '#21C49D',
                 data: [55, 74, 66, 50, 35, 50, 75],
-                fill: false
+                fill: false,
               },
               {
                 label: new Date().getFullYear() - 1,
                 fill: false,
-                backgroundColor: "#ed8936",
-                borderColor: "#ed8939",
-                data: [40, 77, 80, 75, 56, 66, 96]
-              }
-            ]
+                backgroundColor: '#ed8936',
+                borderColor: '#ed8939',
+                data: [40, 77, 80, 75, 56, 66, 96],
+              },
+            ],
           },
           options: {
             maintainAspectRatio: false,
             responsive: true,
             title: {
               display: false,
-              text: "Sales Charts",
-              fontColor: "white"
+              text: 'Sales Charts',
+              fontColor: 'white',
             },
             legend: {
               labels: {
-                fontColor: "white"
+                fontColor: 'white',
               },
-              align: "end",
-              position: "bottom"
+              align: 'end',
+              position: 'bottom',
             },
             tooltips: {
-              mode: "index",
-              intersect: false
+              mode: 'index',
+              intersect: false,
             },
             hover: {
-              mode: "nearest",
-              intersect: true
+              mode: 'nearest',
+              intersect: true,
             },
             scales: {
               xAxes: [
                 {
                   ticks: {
-                    fontColor: "rgba(255,255,255,.7)"
+                    fontColor: 'rgba(255,255,255,.7)',
                   },
                   display: true,
                   scaleLabel: {
                     display: false,
-                    labelString: "Month",
-                    fontColor: "white"
+                    labelString: 'Month',
+                    fontColor: 'white',
                   },
                   gridLines: {
                     display: false,
                     borderDash: [2],
                     borderDashOffset: [2],
-                    color: "rgba(33, 37, 41, 0.3)",
-                    zeroLineColor: "rgba(0, 0, 0, 0)",
+                    color: 'rgba(33, 37, 41, 0.3)',
+                    zeroLineColor: 'rgba(0, 0, 0, 0)',
                     zeroLineBorderDash: [2],
-                    zeroLineBorderDashOffset: [2]
-                  }
-                }
+                    zeroLineBorderDashOffset: [2],
+                  },
+                },
               ],
               yAxes: [
                 {
                   ticks: {
-                    fontColor: "rgba(255,255,255,.7)"
+                    fontColor: 'rgba(255,255,255,.7)',
                   },
                   display: true,
                   scaleLabel: {
                     display: false,
-                    labelString: "Value",
-                    fontColor: "white"
+                    labelString: 'Value',
+                    fontColor: 'white',
                   },
                   gridLines: {
                     borderDash: [3],
                     borderDashOffset: [3],
                     drawBorder: false,
-                    color: "rgba(255, 255, 255, 0.15)",
-                    zeroLineColor: "rgba(33, 37, 41, 0)",
+                    color: 'rgba(255, 255, 255, 0.15)',
+                    zeroLineColor: 'rgba(33, 37, 41, 0)',
                     zeroLineBorderDash: [2],
-                    zeroLineBorderDashOffset: [2]
-                  }
-                }
-              ]
-            }
-          }
-        };
-        var ctx = document.getElementById("line-chart").getContext("2d");
-        window.myLine = new Chart(ctx, config);
+                    zeroLineBorderDashOffset: [2],
+                  },
+                },
+              ],
+            },
+          },
+        }
+        var ctx = document.getElementById('line-chart').getContext('2d')
+        window.myLine = new Chart(ctx, config)
 
         /* Bar Chart */
         config = {
-          type: "bar",
+          type: 'bar',
           data: {
             labels: [
-              "January",
-              "February",
-              "March",
-              "April",
-              "May",
-              "June",
-              "July"
+              'January',
+              'February',
+              'March',
+              'April',
+              'May',
+              'June',
+              'July',
             ],
             datasets: [
               {
                 label: new Date().getFullYear(),
-                backgroundColor: "#E89B19",
-                borderColor: "#E89B13",
+                backgroundColor: '#E89B19',
+                borderColor: '#E89B13',
                 data: [40, 58, 57, 34, 100, 55, 23],
                 fill: false,
-                barThickness: 8
+                barThickness: 8,
               },
               {
                 label: new Date().getFullYear() - 1,
                 fill: false,
-                backgroundColor: "#8D77FE",
-                borderColor: "#8D77FF",
+                backgroundColor: '#8D77FE',
+                borderColor: '#8D77FF',
                 data: [30, 44, 66, 44, 55, 22, 80],
-                barThickness: 8
-              }
-            ]
+                barThickness: 8,
+              },
+            ],
           },
           options: {
             maintainAspectRatio: false,
             responsive: true,
             title: {
               display: false,
-              text: "Orders Chart"
+              text: 'Orders Chart',
             },
             tooltips: {
-              mode: "index",
-              intersect: false
+              mode: 'index',
+              intersect: false,
             },
             hover: {
-              mode: "nearest",
-              intersect: true
+              mode: 'nearest',
+              intersect: true,
             },
             legend: {
               labels: {
-                fontColor: "rgba(0,0,0,.4)"
+                fontColor: 'rgba(0,0,0,.4)',
               },
-              align: "end",
-              position: "bottom"
+              align: 'end',
+              position: 'bottom',
             },
             scales: {
               xAxes: [
@@ -789,42 +1281,42 @@
                   display: false,
                   scaleLabel: {
                     display: true,
-                    labelString: "Month"
+                    labelString: 'Month',
                   },
                   gridLines: {
                     borderDash: [2],
                     borderDashOffset: [2],
-                    color: "rgba(33, 37, 41, 0.3)",
-                    zeroLineColor: "rgba(33, 37, 41, 0.3)",
+                    color: 'rgba(33, 37, 41, 0.3)',
+                    zeroLineColor: 'rgba(33, 37, 41, 0.3)',
                     zeroLineBorderDash: [2],
-                    zeroLineBorderDashOffset: [2]
-                  }
-                }
+                    zeroLineBorderDashOffset: [2],
+                  },
+                },
               ],
               yAxes: [
                 {
                   display: true,
                   scaleLabel: {
                     display: false,
-                    labelString: "Value"
+                    labelString: 'Value',
                   },
                   gridLines: {
                     borderDash: [2],
                     drawBorder: false,
                     borderDashOffset: [2],
-                    color: "rgba(33, 37, 41, 0.2)",
-                    zeroLineColor: "rgba(33, 37, 41, 0.15)",
+                    color: 'rgba(33, 37, 41, 0.2)',
+                    zeroLineColor: 'rgba(33, 37, 41, 0.15)',
                     zeroLineBorderDash: [2],
-                    zeroLineBorderDashOffset: [2]
-                  }
-                }
-              ]
-            }
-          }
-        };
-        ctx = document.getElementById("bar-chart").getContext("2d");
-        window.myBar = new Chart(ctx, config);
-      })();
+                    zeroLineBorderDashOffset: [2],
+                  },
+                },
+              ],
+            },
+          },
+        }
+        ctx = document.getElementById('bar-chart').getContext('2d')
+        window.myBar = new Chart(ctx, config)
+      })()
     </script>
   </body>
 </html>
